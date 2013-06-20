@@ -21,6 +21,6 @@
 <portlet:defineObjects />
 
 
-<iframe src="https://gridlab07.cnaf.infn.it/ajp/test.php?userid=<%= ((User) request.getAttribute(WebKeys.USER)).getUserId() %>"  frameborder="no" width="1" height="1">
+<iframe src="https://portal-se.cnaf.infn.it/ajp/login.php?userid=<%= ((User) request.getAttribute(WebKeys.USER)).getUserId() %>"  frameborder="no" width="1" height="1">
   Error!!
 </iframe>
